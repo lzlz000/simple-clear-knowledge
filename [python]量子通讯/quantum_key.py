@@ -70,12 +70,6 @@ reciver = Observer('接收者')
 reciver.get_quantum(interceptor) # 发送者把量子传输给接收者
 reciver.observe() # 接收者对其观测
 
-# 双方交换观察方式（可以对外公布）
+# 双方交换观察方式
 sender.get_path(reciver)
 reciver.get_path(sender)
-
-
-
-        
-
-
